@@ -4,7 +4,7 @@ clc;
 clear;
 
 tic
-h=1/200;  x0=-10; x1=12;  xx=x0:h:x1;        m=round((x1-x0)/h);
+h=1/200;  x0=-2; x1=4;  xx=x0:h:x1;        m=round((x1-x0)/h);
 dt=1/400; t0=0; t1=10;  tt=t0:dt:t1; n=round((t1-t0-2*dt)/dt);
 
 ci=0.2; %noise intensity
